@@ -1,0 +1,46 @@
+name = input("What is your name?")
+
+print("Nice to meet you", name)
+
+age = input("How old are you?")
+
+print("Got it! You're", age ,"years old")
+
+FC = input("What's your favorite color?")
+
+print(FC, "is a nice color!")
+
+CT = input("What's your character type?")
+
+print("you're", CT,"? Nice!")
+
+fruit = input("What's your favorite fruit?")
+
+print(fruit, "seems delicious!")
+
+#While loop practice 1
+counter = 2
+while counter < 22:
+    print("Counter is:", counter)
+    counter+=2
+
+#While loop practice 2
+choice = "word"
+while choice != "yes":
+    choice = input("Would you like fish?")
+    if choice =="yes":
+        print("Fish")
+   
+    
+#While loop practice 3
+number = "7"
+number = input("Guess a number between 1 and 10.")
+while number != "7":
+    number = input("sorry. Try again")
+    if number == "7":
+        print("You got it! you're my friend now. We're having soft tacos later.")
+
+
+    
+    
+
